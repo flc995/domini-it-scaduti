@@ -4,6 +4,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/flc995/domini-it-scaduti)](https://github.com/flc995/domini-it-scaduti/issues)
 [![GitHub forks](https://img.shields.io/github/forks/flc995/domini-it-scaduti)](https://github.com/flc995/domini-it-scaduti/network)
 [![GitHub stars](https://img.shields.io/github/stars/flc995/domini-it-scaduti)](https://github.com/flc995/domini-it-scaduti/stargazers)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/flc995/domini-it-scaduti)](https://github.com/flc995/domini-it-scaduti/releases)
 [![GitHub licence](https://img.shields.io/github/license/flc995/domini-it-scaduti)](https://github.com/flc995/domini-it-scaduti/blob/main/LICENSE.md)
 
 Un semplice script Python per ottenere la lista degli ultimi domini scaduti (massimo ultimi 8 giorni).\
