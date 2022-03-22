@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/flc995/domini-it-scaduti/main/static/intro.gif" alt="How-it-works" width="256px" />
+<img src="https://raw.githubusercontent.com/flc995/domini-it-scaduti/main/static/intro.gif" alt="How-it-works" width="555px" />
 
 # Tool di ricerca domini .it scaduti 🕚⚡️
 [![GitHub issues](https://img.shields.io/github/issues/flc995/domini-it-scaduti)](https://github.com/flc995/domini-it-scaduti/issues)
