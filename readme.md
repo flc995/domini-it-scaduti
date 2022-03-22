@@ -1,5 +1,3 @@
-![Example](assets/intro.gif)
-
 # Tool di ricerca domini .it scaduti 🕚⚡️
 
 Un semplice script Python che verifica gli ultimi domini scaduti (massimo ultimi 8 giorni).
