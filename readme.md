@@ -20,8 +20,6 @@ python main.py
 
 - [Python](https://www.python.org/)
 
-&nbsp;
-
 
 ## Contributors Wall
 <a href="https://github.com/flc995/domini-it-scaduti/graphs/contributors">
