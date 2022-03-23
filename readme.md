@@ -6,7 +6,6 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/flc995/domini-it-scaduti)](https://github.com/flc995/domini-it-scaduti/stargazers)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/flc995/domini-it-scaduti)](https://github.com/flc995/domini-it-scaduti/releases)
 [![GitHub last commit](https://img.shields.io/github/last-commit/flc995/domini-it-scaduti)](https://github.com/flc995/domini-it-scaduti/commits/main)
-[![GitHub licence](https://img.shields.io/github/license/flc995/domini-it-scaduti)](https://github.com/flc995/domini-it-scaduti/blob/main/LICENSE.md)
 
 Un semplice script Python per ottenere la lista degli ultimi domini scaduti (massimo ultimi 8 giorni).\
 I domini scaduti vengono scaricati dall'anagrafe dei domini italiani (nic.it) attraverso i file messi a disposizione dall'anagrafe stessa
