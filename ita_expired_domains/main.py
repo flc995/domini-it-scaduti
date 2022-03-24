@@ -1,5 +1,5 @@
 import typer
-from lib.parser import NICParser
+from .utils.parser import NICParser
 
 def main():
     typer.echo("Benvenuto nel tool di ricerca di domini (.it) appena scaduti. Inserire numero di giorni da cercare (es: ultimi 4 giorni) e numero di caratteri del dominio (almeno 5)")
