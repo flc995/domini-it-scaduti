@@ -38,7 +38,10 @@ class NICParser:
                 typer.secho(f"Parsing: {url_to_fetch}", fg=typer.colors.BRIGHT_YELLOW)
                 domains = self.parse_url(url=url_to_fetch)
                 domain_list.extend(domains)
-        for x in domain_list:
-            domain = typer.style(x, fg=typer.colors.BRIGHT_GREEN)
-            typer.echo(f"Available domain: {domain}")
+        if len(domain_list) == 0:
+            typer.secho("Nessun dominio trovato :( Riprovare aumentando i caratteri del dominio da cercare.", fg=typer.colors.BRIGHT_RED)
+        else:
+            for x in domain_list:
+                domain = typer.style(x, fg=typer.colors.BRIGHT_GREEN)
+                typer.echo(f"Available domain: {domain}")
 

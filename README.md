@@ -12,10 +12,11 @@ I domini scaduti vengono scaricati dall'anagrafe dei domini italiani (nic.it) at
 al seguente indirizzo: https://www.nic.it/it/droptime
 
 ## Eseguire lo script
+Per eseguire lo script occorre avere almeno Python 3.10
 
 ```
-pip install requirements.txt
-python main.py
+poetry install
+poetry run search
 ```
 
 ## Infrastruttura
