@@ -13,10 +13,24 @@ al seguente indirizzo: https://www.nic.it/it/droptime
 
 ## Eseguire lo script
 Per eseguire lo script occorre avere almeno Python 3.10
-
+Installare le dipendenze eseguendo:
 ```
 poetry install
+```
+
+È possibile eseguire lo script in modalita interattiva, e quindi verrano chiesti giorni e lunghezza del dominio come input.
+```
 poetry run search
+```
+
+Altrimenti è possibile eseguire lo script passando i requisiti come arguments:
+```
+poetry run search <int: days> <int: length> 
+```
+
+Esempio:
+```
+poetry run search 3 5
 ```
 
 ## Infrastruttura
