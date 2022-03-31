@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ita_expired_domains"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Florin Cotovanu <flc995@gmail.com>", "Emanuele Addis <ustarjem.acwazz@gmail.com>"]
 
