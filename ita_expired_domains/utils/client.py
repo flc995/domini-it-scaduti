@@ -37,7 +37,11 @@ class Downloader:
 
     async def fetch_droptime_files(self, days_num: int):
         filenames_list = self.compute_files_list(days_num)
-        files = await asyncio.gather(*(self.fetch_droptime_file(filename) for filename in filenames_list))
+        files = []
+        for filename in filenames_list:
+            file = await self.fetch_droptime_file(filename)
+            files.append(file)
+            await asyncio.sleep(1)  # Add a 1-second delay between requests
         return files
 
 italian_register_client = Downloader(base_url=DEFAULT_BASE_URL, expiring_hours=DEFAULT_EXPIRING_HOURS)
